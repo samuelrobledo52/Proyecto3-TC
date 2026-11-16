@@ -5,7 +5,6 @@ Teoría de la Computación - Universidad del Valle de Guatemala
 ## Integrantes
 
 - Samuel Robledo - 241282
-- [COMPAÑERO - CARNÉ]
 
 ## Requisitos e instalación
 
