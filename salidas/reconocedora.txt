@@ -1,0 +1,125 @@
+Máquina: reconocedora.yaml
+
+Cadena: aabbcc
+0: [0, B]aabbcc
+⊢ 1: X[1, B]abbcc
+⊢ 2: Xa[1, B]bbcc
+⊢ 3: XaY[2, B]bcc
+⊢ 4: XaYb[2, B]cc
+⊢ 5: XaY[3, B]bZc
+⊢ 6: Xa[3, B]YbZc
+⊢ 7: X[3, B]aYbZc
+⊢ 8: [3, B]XaYbZc
+⊢ 9: X[0, B]aYbZc
+⊢ 10: XX[1, B]YbZc
+⊢ 11: XXY[1, B]bZc
+⊢ 12: XXYY[2, B]Zc
+⊢ 13: XXYYZ[2, B]c
+⊢ 14: XXYY[3, B]ZZ
+⊢ 15: XXY[3, B]YZZ
+⊢ 16: XX[3, B]YYZZ
+⊢ 17: X[3, B]XYYZZ
+⊢ 18: XX[0, B]YYZZ
+⊢ 19: XXY[4, B]YZZ
+⊢ 20: XXYY[4, B]ZZ
+⊢ 21: XXYYZ[5, B]Z
+⊢ 22: XXYYZZ[5, B]B
+⊢ 23: XXYYZZ[6, B]B
+Resultado: ACEPTADA (se detuvo en el estado final 6)
+Pasos: 23
+Cinta final: XXYYZZ
+
+Cadena: aaabbbccc
+0: [0, B]aaabbbccc
+⊢ 1: X[1, B]aabbbccc
+⊢ 2: Xa[1, B]abbbccc
+⊢ 3: Xaa[1, B]bbbccc
+⊢ 4: XaaY[2, B]bbccc
+⊢ 5: XaaYb[2, B]bccc
+⊢ 6: XaaYbb[2, B]ccc
+⊢ 7: XaaYb[3, B]bZcc
+⊢ 8: XaaY[3, B]bbZcc
+⊢ 9: Xaa[3, B]YbbZcc
+⊢ 10: Xa[3, B]aYbbZcc
+⊢ 11: X[3, B]aaYbbZcc
+⊢ 12: [3, B]XaaYbbZcc
+⊢ 13: X[0, B]aaYbbZcc
+⊢ 14: XX[1, B]aYbbZcc
+⊢ 15: XXa[1, B]YbbZcc
+⊢ 16: XXaY[1, B]bbZcc
+⊢ 17: XXaYY[2, B]bZcc
+⊢ 18: XXaYYb[2, B]Zcc
+⊢ 19: XXaYYbZ[2, B]cc
+⊢ 20: XXaYYb[3, B]ZZc
+⊢ 21: XXaYY[3, B]bZZc
+⊢ 22: XXaY[3, B]YbZZc
+⊢ 23: XXa[3, B]YYbZZc
+⊢ 24: XX[3, B]aYYbZZc
+⊢ 25: X[3, B]XaYYbZZc
+⊢ 26: XX[0, B]aYYbZZc
+⊢ 27: XXX[1, B]YYbZZc
+⊢ 28: XXXY[1, B]YbZZc
+⊢ 29: XXXYY[1, B]bZZc
+⊢ 30: XXXYYY[2, B]ZZc
+⊢ 31: XXXYYYZ[2, B]Zc
+⊢ 32: XXXYYYZZ[2, B]c
+⊢ 33: XXXYYYZ[3, B]ZZ
+⊢ 34: XXXYYY[3, B]ZZZ
+⊢ 35: XXXYY[3, B]YZZZ
+⊢ 36: XXXY[3, B]YYZZZ
+⊢ 37: XXX[3, B]YYYZZZ
+⊢ 38: XX[3, B]XYYYZZZ
+⊢ 39: XXX[0, B]YYYZZZ
+⊢ 40: XXXY[4, B]YYZZZ
+⊢ 41: XXXYY[4, B]YZZZ
+⊢ 42: XXXYYY[4, B]ZZZ
+⊢ 43: XXXYYYZ[5, B]ZZ
+⊢ 44: XXXYYYZZ[5, B]Z
+⊢ 45: XXXYYYZZZ[5, B]B
+⊢ 46: XXXYYYZZZ[6, B]B
+Resultado: ACEPTADA (se detuvo en el estado final 6)
+Pasos: 46
+Cinta final: XXXYYYZZZ
+
+Cadena: aabbbcc
+0: [0, B]aabbbcc
+⊢ 1: X[1, B]abbbcc
+⊢ 2: Xa[1, B]bbbcc
+⊢ 3: XaY[2, B]bbcc
+⊢ 4: XaYb[2, B]bcc
+⊢ 5: XaYbb[2, B]cc
+⊢ 6: XaYb[3, B]bZc
+⊢ 7: XaY[3, B]bbZc
+⊢ 8: Xa[3, B]YbbZc
+⊢ 9: X[3, B]aYbbZc
+⊢ 10: [3, B]XaYbbZc
+⊢ 11: X[0, B]aYbbZc
+⊢ 12: XX[1, B]YbbZc
+⊢ 13: XXY[1, B]bbZc
+⊢ 14: XXYY[2, B]bZc
+⊢ 15: XXYYb[2, B]Zc
+⊢ 16: XXYYbZ[2, B]c
+⊢ 17: XXYYb[3, B]ZZ
+⊢ 18: XXYY[3, B]bZZ
+⊢ 19: XXY[3, B]YbZZ
+⊢ 20: XX[3, B]YYbZZ
+⊢ 21: X[3, B]XYYbZZ
+⊢ 22: XX[0, B]YYbZZ
+⊢ 23: XXY[4, B]YbZZ
+⊢ 24: XXYY[4, B]bZZ
+Resultado: RECHAZADA (no hay transición para ([4, B], b) y 4 no es final)
+Pasos: 24
+Cinta final: XXYYbZZ
+
+Cadena: abcabc
+0: [0, B]abcabc
+⊢ 1: X[1, B]bcabc
+⊢ 2: XY[2, B]cabc
+⊢ 3: X[3, B]YZabc
+⊢ 4: [3, B]XYZabc
+⊢ 5: X[0, B]YZabc
+⊢ 6: XY[4, B]Zabc
+⊢ 7: XYZ[5, B]abc
+Resultado: RECHAZADA (no hay transición para ([5, B], a) y 5 no es final)
+Pasos: 7
+Cinta final: XYZabc

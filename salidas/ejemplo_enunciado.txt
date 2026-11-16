@@ -1,0 +1,23 @@
+Máquina: ejemplo_enunciado.yaml
+
+Cadena: aab#aab
+0: [0, B]aab#aab
+⊢ 1: [1, a]ab#aab
+⊢ 2: a[1, a]b#aab
+Resultado: RECHAZADA (no hay transición para ([1, a], b) y 1 no es final)
+Pasos: 2
+Cinta final: ab#aab
+
+Cadena: ab#ab
+0: [0, B]ab#ab
+⊢ 1: [1, a]b#ab
+Resultado: RECHAZADA (no hay transición para ([1, a], b) y 1 no es final)
+Pasos: 1
+Cinta final: b#ab
+
+Cadena: abbababa#aba
+0: [0, B]abbababa#aba
+⊢ 1: [1, a]bbababa#aba
+Resultado: RECHAZADA (no hay transición para ([1, a], b) y 1 no es final)
+Pasos: 1
+Cinta final: bbababa#aba
