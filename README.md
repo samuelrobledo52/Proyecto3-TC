@@ -162,6 +162,8 @@ Es el ejemplo incompleto del enunciado, con estados 0 a 5, Σ = {a, b}, Γ = {a,
 `pruebas/verificar.py` compara la reconocedora con una función de Python que decide aⁿbⁿcⁿ sobre todas las cadenas de {a, b, c} de longitud 1 a 9 (29523 cadenas), y la alteradora con `w + '#' + w` sobre todas las cadenas de {a, b} de longitud 1 a 7 (254 cadenas). También carga los archivos de `pruebas/errores/` y comprueba que cada uno produzca su mensaje de error.
 
 ## Video
+https://youtu.be/8ScIJdCkxPc
+
 
 [Enlace al video](PENDIENTE)
 
